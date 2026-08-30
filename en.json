@@ -1,0 +1,163 @@
+{
+  "app": {
+    "title": "UnavuLens AI",
+    "brandTamil": "உணவுLens",
+    "tagline": "“See Beyond the Label.”",
+    "subtitle": "“Don’t trust the front of the packet. Investigate the label.”",
+    "mvp": "v2.0 Detective Edition"
+  },
+  "nav": {
+    "landing": "🏠 Showcase",
+    "scanner": "🔎 Detective Scanner",
+    "compare": "⚖️ Compare",
+    "history": "📜 Case History",
+    "goals": "Goals & Allergens",
+    "geminiActive": "Gemini AI Active",
+    "offlineOcr": "Offline OCR",
+    "easyExplain": "🧒 Easy Explain",
+    "normalMode": "Normal Mode",
+    "cta": "Start Investigation →"
+  },
+  "scanner": {
+    "title": "📸 Multi-Photo Label Scanner",
+    "uploadTab": "Upload Images",
+    "sampleTab": "Preset Samples",
+    "cameraTab": "Webcam Capture",
+    "pasteTab": "Paste Label Text",
+    "dragDrop": "Drop packaged food label photos here",
+    "supports": "Supports JPG, PNG, WEBP — Attach Front, Ingredients, Nutrition & Back photos for CASE #UL-001",
+    "browse": "Browse Files",
+    "sampleHelp": "Click any sample label to run an instant detective investigation:",
+    "turnOnCamera": "Turn On Camera",
+    "snapPhoto": "Snap Photo & Detect",
+    "pasteLabelHelp": "Paste raw ingredient list text here...",
+    "analyzePasted": "Analyze Pasted Label",
+    "investigating": "UnavuLens is investigating your label case…",
+    "claimsTitle": "⭐ Signature Feature: Select Front-of-Package Claims to Investigate",
+    "claimsSubtitle": "Select what the front of the packet promises. Our detective engine will cross-examine these claims against the actual label!"
+  },
+  "multiScan": {
+    "caseTitle": "📁 CASE #UL-001 Multi-Image Case Files",
+    "frontSlot": "Front Photo",
+    "ingredientsSlot": "Ingredients Photo",
+    "nutritionSlot": "Nutrition Photo",
+    "backSlot": "Back / Expiry Photo",
+    "addPhoto": "+ Add Photo",
+    "removePhoto": "Remove",
+    "replacePhoto": "Replace"
+  },
+  "trust": {
+    "verified": "✅ DETECTED / VERIFIED",
+    "needsVerification": "⚠️ NEEDS VERIFICATION",
+    "cannotDetermine": "❓ CANNOT DETERMINE",
+    "fssaiDisclaimer": "Detected from image text (Not official registry verification)",
+    "lowConfidenceWarn": "⚠ Some text has low OCR confidence. Please verify on the physical package.",
+    "notFound": "❓ Not found in uploaded images."
+  },
+  "summaryCard": {
+    "title": "🔎 UNAVULENS INVESTIGATION COMPLETE",
+    "whatAmIEating": "🍽️ WHAT AM I ACTUALLY EATING?",
+    "sugar": "🍬 Sugar",
+    "protein": "💪 Protein",
+    "sodium": "🧂 Sodium",
+    "additives": "🧪 Additives",
+    "allergens": "⚠️ Allergens",
+    "expiry": "📅 Expiry",
+    "fssai": "🏷️ FSSAI",
+    "overallScore": "OVERALL DETECTIVE SCORE",
+    "why": "Why?"
+  },
+  "ocr": {
+    "labelText": "🔤 Label Text",
+    "originalTab": "Original OCR",
+    "cleanedTab": "Cleaned Text",
+    "editLabel": "✏️ Edit Extracted Text",
+    "reparse": "🔄 Re-Analyze Edited Text",
+    "confidence": "Section Confidence"
+  },
+  "ingredientDetective": {
+    "title": "🧪 Ingredient Detective — Every Ingredient Has a Story",
+    "subtitle": "Investigating every ingredient in plain English & Tamil",
+    "searchPlaceholder": "Search ingredient by name, E-number, or category...",
+    "whatIsIt": "What is it?",
+    "whyUsed": "Why is it used?",
+    "whyInProduct": "Why is it in this product?",
+    "doesItGiveMe": "⚡ Does This Ingredient Provide Nutrition?",
+    "whoShouldPayAttention": "👤 Who Should Pay Attention?",
+    "protein": "Protein",
+    "sugar": "Sugar",
+    "fat": "Fat",
+    "carbs": "Carbohydrates",
+    "vitamins": "Vitamins / Minerals",
+    "shouldIBeConcerned": "⚠️ Should I be concerned?",
+    "easyExplanation": "🧒 Easy Explanation:",
+    "all": "All",
+    "enumbers": "E-Numbers",
+    "additives": "Additives",
+    "flags": "Watch & Flagged"
+  },
+  "alias": {
+    "title": "🍬 Multiple Sweetening Ingredients Detected",
+    "explanation": "This product uses multiple sweetening ingredients to distribute sweetener names across the ingredient list."
+  },
+  "allergens": {
+    "detected": "🔴 ALLERGEN DETECTED",
+    "foundIn": "Found in:",
+    "whyFlagged": "Why flagged:",
+    "whoAttention": "Who should pay attention:"
+  },
+  "nutrition": {
+    "title": "🥗 Nutrition Detective",
+    "servingSize": "Serving Size",
+    "good": "Good",
+    "watch": "Watch",
+    "high": "High",
+    "calorieSplit": "Calorie Distribution"
+  },
+  "swaps": {
+    "title": "🛒 Want a Better Option?",
+    "subtitle": "Look for products meeting these criteria:",
+    "lowerSugar": "✓ Lower sugar (< 6g per serving)",
+    "higherProtein": "✓ Higher protein (> 8g per serving)",
+    "lowerSodium": "✓ Lower sodium (< 200mg per serving)",
+    "zeroTransFat": "✓ Zero trans fat & no hydrogenated oils"
+  },
+  "marketingBuster": {
+    "title": "🕵️ What the Label Doesn't Tell You",
+    "truthIndex": "Truth Index",
+    "investigation": "Investigation:",
+    "evidence": "Evidence Case File:",
+    "confirmed": "🟢 Confirmed",
+    "mostlyAccurate": "🟢 Mostly Accurate",
+    "needsContext": "🟡 Needs Context",
+    "misleading": "🟠 Misleading",
+    "busted": "🔴 Busted"
+  },
+  "verdict": {
+    "title": "🔎 Detective Verdict",
+    "good": "Good",
+    "watch": "Watch",
+    "redFlags": "Red Flag",
+    "oneLineVerdict": "One-Line Verdict",
+    "exportPdf": "Export PDF Report",
+    "saveCase": "Save Case"
+  },
+  "comparison": {
+    "title": "⚖️ Side-by-Side Product Comparison",
+    "betterChoice": "🏆 Better match for your selected goal:",
+    "whatMatters": "What matters to you?"
+  },
+  "history": {
+    "title": "📜 Case History & Pattern Insights",
+    "scannedCount": "Products Scanned",
+    "addedSugarCount": "With Added Sugar",
+    "allergenCount": "With Allergens",
+    "avgSugar": "Avg Sugar / Serving",
+    "filterAll": "All",
+    "filterSugar": "High Sugar",
+    "filterAllergens": "Allergens",
+    "filterSodium": "High Sodium",
+    "filterClaims": "Marketing Claims",
+    "filterSafety": "Safety Alerts"
+  }
+}
